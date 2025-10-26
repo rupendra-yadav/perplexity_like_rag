@@ -7,4 +7,5 @@ load_dotenv()
 
 class Settings(BaseSettings):
     TAVILY_API_KEY: str = os.getenv("TAVILY_API_KEY")
+    GEMINI_API_KEY: str = ""
 
